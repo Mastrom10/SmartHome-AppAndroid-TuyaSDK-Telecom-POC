@@ -50,7 +50,7 @@ public class UserFuncActivity extends AppCompatActivity implements View.OnClickL
         Button btnLogin = findViewById(R.id.btnLogin);
         btnRegister.setOnClickListener(this);
         btnLogin.setOnClickListener(this);
-
+        //testing commit
 
         try {
             PackageInfo pInfo = this.getPackageManager().getPackageInfo(this.getPackageName(), 0);
